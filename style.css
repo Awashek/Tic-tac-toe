@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3E505B;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+h1{
+  color: #1A1D1A;  
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.3) ;
+    font-size: 8vmin;
+    color: #1A1D1A;
+    background-color: aliceblue;
+}
+
+.o-color{
+    color: blue;
+}
+
+.x-color{
+    color: red;
+}
+
+#Resetbtn{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(194, 65, 65);
+    color: black;
+    font-weight: bolder;
+}
+
+#Againbtn{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(194, 65, 65);
+    color: black;
+    font-weight: bolder;
+}
+
+#msg{
+    color: #CCCCCC;
+    font-size: 5vmin;
+    
+}
+
+.message{
+    height: 15vmin;
+}
+
+.hide{
+    display: none;
+}
