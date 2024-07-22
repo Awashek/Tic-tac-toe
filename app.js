@@ -30,12 +30,10 @@ boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if(rollO){
             box.innerText = "O";
-            box.classList.add("o-color");
             rollO = false;
         }
         else{
-            box.innerText = "X";
-            box.classList.add("x-color")
+            box.innerText = "X";    
             rollO = true;
         }
         box.disabled = true;
